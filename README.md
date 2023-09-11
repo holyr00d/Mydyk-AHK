@@ -21,7 +21,7 @@ Drag and drop files as outlined in pic and then click Convert.
 
 Upon launching, you'll encounter a user-friendly GUI with various input fields and options. Here's a breakdown to guide you through:
 
-Set Profile Name: Enter a name to save your recoil settings, useful if you play multiple games.
+Set Profile Name: Enter a name for your recoil settings.
 Horizontal Parameter: Adjust this value to control the horizontal recoil. A higher value provides more control, but might feel less natural.
 Vertical Parameter: Similarly, this adjusts the vertical recoil control.
 Game Process: Type in the game's executable name (like game.exe). Mydyk will specifically target this game for recoil control.
