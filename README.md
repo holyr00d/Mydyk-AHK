@@ -1,4 +1,4 @@
-Note I used GPT-4 for all the above! I merely produced everything:
+Note I used GPT-4 to create all the code! I merely produced everything:
 
 Mydyk AHK Script:
 
