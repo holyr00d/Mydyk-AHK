@@ -26,26 +26,30 @@ Horizontal Parameter: Adjust this value to control the horizontal recoil. A high
 Vertical Parameter: Similarly, this adjusts the vertical recoil control.
 Game Process: Type in the game's executable name (like game.exe). Mydyk will specifically target this game for recoil control.
 
+
 🕹️ How to Use
 After setting your preferences:
-
 Launch Your Game: Ensure the game specified in the "Game Process" field is running.
 Play as Usual: Once in-game, Mydyk will automatically manage the recoil based on your specified parameters whenever you press and hold the left mouse button (LButton).
 Tip: Mydyk is designed to operate only when the game (specified in "Game Process") is in focus, preventing any unintentional mouse movements outside the game.
+
 
 🔄 Switching Profiles
 If you switch between games or weapons with different recoils:
 Reset Parameters and update the input fields with new values.
 Dive back into your game with the new settings applied.
 
+
 📢 Note
 Mydyk is primarily designed to reduce wrist strain and improve overall gaming health by managing recoil. This tool aims to provide a more comfortable gaming experience, especially for extended sessions. It's not a cheat, and its purpose isn't to provide an unfair edge in multiplayer settings. Always respect your game's terms of service and the gaming community.
+
 
 🤝 Contribution
 New to GitHub? No worries! If you find any issues or think of improvements, you're welcome to:
 Report Issues: Use the 'Issues' tab at the top to submit any problems or bugs you find.
 Suggest Improvements: Feel free to fork this repository, make your changes, and submit a pull request.
 Need help with these steps? GitHub has a great guide to get you started.
+
 
 📜 License
 This project is under the MIT License. For more details, check the LICENSE file in the repository.
