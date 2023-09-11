@@ -15,7 +15,7 @@ counter := 0
 Gui, +LastFound +E0x20
 Gui, Margin, 0, 0
 Gui, Color, c010105
-Gui, Font, c0x9370DB s14 bold, Arial ; 'Medium Purple' color
+Gui, Font, c0x9370DB s14 bold, Arial ; change 'Medium Purple' to the desired color
 Gui, Add, Tab, x10 y20 w490 h470 vTabs, Recoil
 
 ; Recoil tab
@@ -29,7 +29,11 @@ Gui, Add, Text, x40 y220 +BackgroundTrans, Vertical Parameter
 Gui, Add, Edit, x40 y250 w100 h30 vVerticalParameter
 Gui, Add, Text, x40 y300 +BackgroundTrans, Game Process
 Gui, Add, Edit, x40 y330 w200 h30 vGameProcess
-Gui, Add, Button, x40 y440 w125 h45 gResetParameters, Reset Parameters
+Gui, Add, Text, x40 y380 +BackgroundTrans, On/Off Key
+Gui, Add, Edit, x40 y410 w100 h30 vOnOffKey gSetHotkey
+Gui, Font, cRed s16 bold, Arial
+Gui, Add, Text, x40 y460 vStatus, Disabled
+Gui, Add, Button, x220 y440 gResetParameters, Reset Parameters
 
 Gui, Show, w512 h512
 
@@ -41,37 +45,42 @@ return
 
 DoRecoil:
 {
-    if (WinActive("ahk_exe " . GameProcess))
+if (WinActive("ahk_exe " . GameProcess) and HorizontalParameter and VerticalParameter)
+{
+    while GetKeyState("LButton")
     {
-        while GetKeyState("LButton")
-        {
-            DllCall("mouse_event", uint, 1, int, HorizontalParameter, int, VerticalParameter, uint, 1, int, 0)
-            Sleep, 25
-        }
+        DllCall("mouse_event", uint, 1, int, HorizontalParameter, int, VerticalParameter, uint, 1, int, 0)
+        Sleep, 25
     }
 }
+}
+return
+
+SetHotkey:
+Gui, Submit, NoHide
+Hotkey, % "$*" OnOffKey, ToggleRecoil
 return
 
 ToggleRecoil:
 {
-    recoilEnabled := !recoilEnabled
-    if (Mod(counter, 2) = 0)
-    {
-        Gui, Font, cLime s24 bold, Arial
-    }
-    else
-    {
-        Gui, Font, cRed s24 bold, Arial
-    }
-    counter += 1
+recoilEnabled := !recoilEnabled
+if (Mod(counter, 2) = 0)
+{
+    Gui, Font, cLime s24 bold, Arial
+    GuiControl,, Status, Enabled
+}
+else
+{
+    Gui, Font, cRed s24 bold, Arial
+    GuiControl,, Status, Disabled
+}
+counter += 1
 }
 return
 
 ResetParameters:
-{
-    GuiControl,, HorizontalParameter, 0
-    GuiControl,, VerticalParameter, 0
-    HorizontalParameter := 0
-    VerticalParameter := 0
-}
+GuiControl,, HorizontalParameter, ; Clear Horizontal Parameter
+GuiControl,, VerticalParameter, ; Clear Vertical Parameter
+HorizontalParameter := 0 ; Reset the variable
+VerticalParameter := 0 ; Reset the variable
 return
