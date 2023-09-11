@@ -45,14 +45,15 @@ return
 
 DoRecoil:
 {
-if (WinActive("ahk_exe " . GameProcess) and HorizontalParameter and VerticalParameter)
-{
-    while GetKeyState("LButton")
+    Gui, Submit, NoHide ; Fetch the updated values
+    if (WinActive("ahk_exe " . GameProcess) and HorizontalParameter and VerticalParameter)
     {
-        DllCall("mouse_event", uint, 1, int, HorizontalParameter, int, VerticalParameter, uint, 1, int, 0)
-        Sleep, 25
+        while GetKeyState("LButton")
+        {
+            DllCall("mouse_event", uint, 1, int, HorizontalParameter, int, VerticalParameter, uint, 1, int, 0)
+            Sleep, 25
+        }
     }
-}
 }
 return
 
