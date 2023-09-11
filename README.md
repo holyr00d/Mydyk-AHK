@@ -1,4 +1,6 @@
 Mydyk AHK Script
+![####mydyk](https://github.com/R00dNet/Mydyk/assets/37847231/650752ad-a424-433f-a304-49759fa8bb9e)
+
 Welcome to Mydyk, a customizable recoil handling script powered by AutoHotKey. Designed with precision in mind, Mydyk assists players in managing recoil in their favorite games, ensuring better control and accuracy.
 
 🛠️ Requirements
@@ -10,6 +12,8 @@ Starting with Mydyk is simple:
 
 Clone or Download the Repository: You can get the code by either cloning this repository using Git or by simply downloading a zip of the repository.
 Run the Script: Locate the Mydyk.ahk file and double-click on it to run using AutoHotkey.
+![####ahk](https://github.com/R00dNet/Mydyk/assets/37847231/aa9dfa4f-61dc-4179-92db-cd67c3cc6e77)
+
 Upon launching, you'll encounter a user-friendly GUI with various input fields and options. Here's a breakdown to guide you through:
 
 Set Profile Name: Enter a name to save your recoil settings, useful if you play multiple games.
