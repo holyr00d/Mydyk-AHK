@@ -1,4 +1,6 @@
-Mydyk AHK Script
+Note I used GPT-4 for all the above! I merely produced everything:
+
+Mydyk AHK Script:
 
 ![####mydyk](https://github.com/R00dNet/Mydyk/assets/37847231/650752ad-a424-433f-a304-49759fa8bb9e)
 
