@@ -1,28 +1,28 @@
-Note I used GPT-4 to create all the code! I merely produced everything:
+Note I used GPT-4 to create all the code! I merely produced everything:  
 
-Mydyk AHK Script:
+Mydyk AHK Script:  
 
-![####mydyk](https://github.com/R00dNet/Mydyk/assets/37847231/d111b107-d11b-4662-b970-7813620c3ffb)
+![####mydyk](https://github.com/R00dNet/Mydyk/assets/37847231/d111b107-d11b-4662-b970-7813620c3ffb)  
 
-Welcome to Mydyk, a customizable recoil handling script powered by AutoHotKey. Designed with precision in mind, Mydyk assists players in managing recoil in their favorite games, ensuring better control and accuracy.
+Welcome to Mydyk, a customizable recoil handling script powered by AutoHotKey. Designed with precision in mind, Mydyk assists players in managing recoil in their favorite games, ensuring better control and accuracy.  
 
-🛠️ Requirements
-AutoHotkey: You will need AutoHotkey installed on your machine. If you don't have it yet, you can download AutoHotkey here https://www.autohotkey.com/. For those unfamiliar with AutoHotkey, it's a powerful scripting language for Windows. Once installed, it allows scripts like Mydyk to run.
-Windows Operating System: Currently, Mydyk is designed to work on Windows.
-
-🚀 Getting Started
-Starting with Mydyk is simple:
-
-Clone or Download the Repository: You can get the code by either cloning this repository using Git or by simply downloading a zip of the repository.
-Run the Script: Locate the Mydyk.ahk file and double-click on it to run using AutoHotkey.
-
-Or you can complie the .exe by opening Convert .ahk to .exe in AutoHotkey install folder
-Drag and drop files as outlined in pic and then click Convert.
-
-![####ahk](https://github.com/R00dNet/Mydyk/assets/37847231/aa9dfa4f-61dc-4179-92db-cd67c3cc6e77)
-
-Upon launching, you'll encounter a user-friendly GUI with various input fields and options. Here's a breakdown to guide you through:
-
+🛠️ Requirements  
+AutoHotkey: You will need AutoHotkey installed on your machine. If you don't have it yet, you can download AutoHotkey here https://www.autohotkey.com/. For those unfamiliar with AutoHotkey, it's a powerful scripting language for Windows. Once installed, it allows scripts like Mydyk to run.  
+Windows Operating System: Currently, Mydyk is designed to work on Windows.  
+  
+🚀 Getting Started  
+Starting with Mydyk is simple:  
+  
+Clone or Download the Repository: You can get the code by either cloning this repository using Git or by simply downloading a zip of the repository.  
+Run the Script: Locate the Mydyk.ahk file and double-click on it to run using AutoHotkey.  
+  
+Or you can complie the .exe by opening Convert .ahk to .exe in AutoHotkey install folder.  
+Drag and drop files as outlined in pic and then click Convert.  
+  
+![####ahk](https://github.com/R00dNet/Mydyk/assets/37847231/aa9dfa4f-61dc-4179-92db-cd67c3cc6e77)  
+  
+Upon launching, you'll encounter a user-friendly GUI with various input fields and options. Here's a breakdown to guide you through:  
+  
 Set Profile Name: Enter a name for your recoil settings.  
 Horizontal Parameter: Adjust this value to control the horizontal recoil. A higher value provides more control, but might feel less natural.  
 Vertical Parameter: Similarly, this adjusts the vertical recoil control.  
