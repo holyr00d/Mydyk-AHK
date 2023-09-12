@@ -11,7 +11,7 @@ AutoHotkey: You will need AutoHotkey installed on your machine. If you don't hav
 For those unfamiliar with AutoHotkey, it's a powerful scripting language for Windows. Once installed, it allows scripts like Mydyk to run.  
 Windows Operating System: Currently, Mydyk is designed to work on Windows.  
   
-🚀 Getting Started  
+🚀 **Getting Started**  
 Starting with Mydyk is simple:  
   
 Clone or Download the Repository: You can get the code by either cloning this repository using Git or by simply downloading a zip of the repository.  
@@ -31,31 +31,31 @@ Game Process: Type in the game's executable name (like game.exe). Mydyk will spe
 On/Off - Disable/Enable program toggle.  
 
 
-🕹️ How to Use  
+🕹️ **How to Use**  
 After setting your preferences:  
 Launch Your Game: Ensure the game specified in the "Game Process" field is running.  
 Play as Usual: Once in-game, Mydyk will automatically manage the recoil based on your specified parameters whenever you press and hold the left mouse button (LButton).  
 Tip: Mydyk is designed to operate only when the game (specified in "Game Process") is in focus, preventing any unintentional mouse movements outside the game.  
   
 
-🔄 Switching Profiles  
+🔄 **Switching Profiles**  
 If you switch between games or weapons with different recoils:  
 Reset Parameters and update the input fields with new values.  
 Dive back into your game with the new settings applied.  
 
 
-📢 Note  
+📢 **Note**  
 Mydyk is primarily designed to reduce wrist strain and improve overall gaming health by managing recoil. This tool aims to provide a more comfortable gaming experience, especially for extended sessions. It's not a cheat, and its purpose isn't to provide an unfair edge in multiplayer settings. Always respect your game's terms of service and the gaming community.  
 
 
-🤝 Contribution
+🤝 **Contribution**
 New to GitHub? No worries! If you find any issues or think of improvements, you're welcome to:
 Report Issues: Use the 'Issues' tab at the top to submit any problems or bugs you find.
 Suggest Improvements: Feel free to fork this repository, make your changes, and submit a pull request.
 Need help with these steps? GitHub has a great guide to get you started.
 
 
-📜 License
+📜 **License**
 This project is under the MIT License. For more details, check the LICENSE file in the repository.
 
 Embark on your gaming adventures with unparalleled control and precision! 🎮
