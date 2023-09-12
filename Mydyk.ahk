@@ -40,42 +40,45 @@ Gui, Show, w512 h512
 Gui, Submit, NoHide
 HorizontalParameter := HorizontalParameter ; no adjustment needed
 VerticalParameter := VerticalParameter ; no adjustment needed
-Hotkey, $*~LButton, DoRecoil, On
-return
+Hotkey, $*~LButton, DoRecoil, On 
 
-DoRecoil:
+return 
+
+DoRecoil: 
 {
     Gui, Submit, NoHide ; Fetch the updated values
-    if (WinActive("ahk_exe " . GameProcess) and HorizontalParameter and VerticalParameter)
+    if (recoilEnabled and WinActive("ahk_exe " . GameProcess) and HorizontalParameter and VerticalParameter)
     {
-        while GetKeyState("LButton")
+        while GetKeyState("LButton") ; While left mouse button is pressed
         {
+            ; Move the mouse cursor
             DllCall("mouse_event", uint, 1, int, HorizontalParameter, int, VerticalParameter, uint, 1, int, 0)
-            Sleep, 25
+            Sleep, 25 
         }
     }
 }
-return
+return 
 
-SetHotkey:
-Gui, Submit, NoHide
-Hotkey, % "$*" OnOffKey, ToggleRecoil
-return
+SetHotkey: 
+{
+    Gui, Submit, NoHide 
+    Hotkey, % "$*" OnOffKey, ToggleRecoil ; Set the hotkey for toggling recoil
+}
+return 
 
-ToggleRecoil:
+ToggleRecoil: 
 {
-recoilEnabled := !recoilEnabled
-if (Mod(counter, 2) = 0)
-{
-    Gui, Font, cLime s24 bold, Arial
-    GuiControl,, Status, Enabled
-}
-else
-{
-    Gui, Font, cRed s24 bold, Arial
-    GuiControl,, Status, Disabled
-}
-counter += 1
+    recoilEnabled := !recoilEnabled ; Toggle the recoilEnabled variable
+    if (recoilEnabled) 
+    {
+        Gui, Font, cLime s24 bold, Arial
+        GuiControl,, Status, Enabled
+    } 
+    else 
+    {
+        Gui, Font, cRed s24 bold, Arial
+        GuiControl,, Status, Disabled
+    }
 }
 return
 
