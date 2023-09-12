@@ -23,27 +23,28 @@ Drag and drop files as outlined in pic and then click Convert.
 
 Upon launching, you'll encounter a user-friendly GUI with various input fields and options. Here's a breakdown to guide you through:
 
-Set Profile Name: Enter a name for your recoil settings.
-Horizontal Parameter: Adjust this value to control the horizontal recoil. A higher value provides more control, but might feel less natural.
-Vertical Parameter: Similarly, this adjusts the vertical recoil control.
-Game Process: Type in the game's executable name (like game.exe). Mydyk will specifically target this game for recoil control.
+Set Profile Name: Enter a name for your recoil settings.  
+Horizontal Parameter: Adjust this value to control the horizontal recoil. A higher value provides more control, but might feel less natural.  
+Vertical Parameter: Similarly, this adjusts the vertical recoil control.  
+Game Process: Type in the game's executable name (like game.exe). Mydyk will specifically target this game for recoil control.  
+On/Off - Disable/Enable program toggle.  
 
 
-🕹️ How to Use
-After setting your preferences:
-Launch Your Game: Ensure the game specified in the "Game Process" field is running.
-Play as Usual: Once in-game, Mydyk will automatically manage the recoil based on your specified parameters whenever you press and hold the left mouse button (LButton).
-Tip: Mydyk is designed to operate only when the game (specified in "Game Process") is in focus, preventing any unintentional mouse movements outside the game.
+🕹️ How to Use  
+After setting your preferences:  
+Launch Your Game: Ensure the game specified in the "Game Process" field is running.  
+Play as Usual: Once in-game, Mydyk will automatically manage the recoil based on your specified parameters whenever you press and hold the left mouse button (LButton).  
+Tip: Mydyk is designed to operate only when the game (specified in "Game Process") is in focus, preventing any unintentional mouse movements outside the game.  
+  
+
+🔄 Switching Profiles  
+If you switch between games or weapons with different recoils:  
+Reset Parameters and update the input fields with new values.  
+Dive back into your game with the new settings applied.  
 
 
-🔄 Switching Profiles
-If you switch between games or weapons with different recoils:
-Reset Parameters and update the input fields with new values.
-Dive back into your game with the new settings applied.
-
-
-📢 Note
-Mydyk is primarily designed to reduce wrist strain and improve overall gaming health by managing recoil. This tool aims to provide a more comfortable gaming experience, especially for extended sessions. It's not a cheat, and its purpose isn't to provide an unfair edge in multiplayer settings. Always respect your game's terms of service and the gaming community.
+📢 Note  
+Mydyk is primarily designed to reduce wrist strain and improve overall gaming health by managing recoil. This tool aims to provide a more comfortable gaming experience, especially for extended sessions. It's not a cheat, and its purpose isn't to provide an unfair edge in multiplayer settings. Always respect your game's terms of service and the gaming community.  
 
 
 🤝 Contribution
