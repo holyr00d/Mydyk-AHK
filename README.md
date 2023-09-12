@@ -6,7 +6,7 @@ Mydyk AHK Script:
 
 Welcome to Mydyk, a customizable recoil handling script powered by AutoHotKey. Designed with precision in mind, Mydyk assists players in managing recoil in their favorite games, ensuring better control and accuracy.  
 
-**🛠️ Requirements**  
+🛠️ **Requirements**  
 AutoHotkey: You will need AutoHotkey installed on your machine. If you don't have it yet, you can download AutoHotkey here https://www.autohotkey.com/.
 For those unfamiliar with AutoHotkey, it's a powerful scripting language for Windows. Once installed, it allows scripts like Mydyk to run.  
 Windows Operating System: Currently, Mydyk is designed to work on Windows.  
