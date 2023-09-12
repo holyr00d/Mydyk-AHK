@@ -36,7 +36,7 @@ After setting your preferences:
 Launch Your Game: Ensure the game specified in the "Game Process" field is running.  
 Play as Usual: Once in-game, Mydyk will automatically manage the recoil based on your specified parameters whenever you press and hold the left mouse button (LButton).  
 Tip: Mydyk is designed to operate only when the game (specified in "Game Process") is in focus, preventing any unintentional mouse movements outside the game.  
-  
+Note: If you play inverted use Minus values for Vertical Parameter.    
 
 🔄 **Switching Profiles**  
 If you switch between games or weapons with different recoils:  
