@@ -2,7 +2,7 @@ Note I used GPT-4 to create all the code! I merely produced everything:
 
 Mydyk AHK Script:
 
-![####mydyk](https://github.com/R00dNet/Mydyk/assets/37847231/650752ad-a424-433f-a304-49759fa8bb9e)
+![####mydyk](https://github.com/R00dNet/Mydyk/assets/37847231/d111b107-d11b-4662-b970-7813620c3ffb)
 
 Welcome to Mydyk, a customizable recoil handling script powered by AutoHotKey. Designed with precision in mind, Mydyk assists players in managing recoil in their favorite games, ensuring better control and accuracy.
 
