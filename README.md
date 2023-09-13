@@ -25,8 +25,8 @@ Drag and drop files as outlined in pic and then click Convert.
 Upon launching, you'll encounter a user-friendly GUI with various input fields and options. Here's a breakdown to guide you through:  
   
 Set Profile Name: Enter a name for your recoil settings.  
-Horizontal Parameter: Minus values (-1 - -10) = left movements. positive values (1 - 10) = right movements.
-Vertical Parameter: Similarly, this adjusts the vertical recoil control.  
+Horizontal Parameter: Minus values (-1 - -10) = left movements. positive values (1 - 10) = right movements.  
+Vertical Parameter: Similarly, this adjusts the vertical recoil control. Minus values for inverted Y Axis.  
 Game Process: Type in the game's executable name (like game.exe). Mydyk will specifically target this game for recoil control.  
 On/Off - Disable/Enable program toggle.  
 
